@@ -7,6 +7,9 @@ import Feedback from './Components/Feedback.js';
 import React from 'react';
 import { useState } from 'react';
 import BestSelling from './Components/BestSelling.js';
+import LeaderboardPage from './Components/Leaderboard.js';
+import SaveEarthComponent from './Components/SaveEarth.js';
+import RegistrationForm from './Components/RegistrationForm.js';
 
 function App() {
   const [Mode, setMode] = useState('light');
@@ -47,6 +50,9 @@ function App() {
     <BestSelling/>
      <Products/>
      <Feedback/>
+     <LeaderboardPage/>
+     <SaveEarthComponent/>
+     <RegistrationForm/>
     </>
   );
 }
