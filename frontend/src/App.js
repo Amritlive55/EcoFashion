@@ -2,7 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './Components/Navbar.js';
 import Home from './Components/Home.js';
+import Products from './Components/Products.js';
+import Feedback from './Components/Feedback.js';
+import React from 'react';
 import { useState } from 'react';
+import BestSelling from './Components/BestSelling.js';
 
 function App() {
   const [Mode, setMode] = useState('light');
@@ -40,6 +44,9 @@ function App() {
     <>
     <Navbar title= "  ECO Fashion"  Mode='dark' toggleMode={toggleMode}/>
     <Home/>
+    <BestSelling/>
+     <Products/>
+     <Feedback/>
     </>
   );
 }
