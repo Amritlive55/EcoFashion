@@ -10,6 +10,9 @@ import BestSelling from './Components/BestSelling.js';
 import LeaderboardPage from './Components/Leaderboard.js';
 import SaveEarthComponent from './Components/SaveEarth.js';
 import RegistrationForm from './Components/RegistrationForm.js';
+import Contact from './Components/Contact.js';
+import Footer from './Components/Footer.js';
+
 
 function App() {
   const [Mode, setMode] = useState('light');
@@ -51,8 +54,10 @@ function App() {
      <Products/>
      <Feedback/>
      <LeaderboardPage/>
-     <SaveEarthComponent/>
+     {/*<SaveEarthComponent/>*/}
      <RegistrationForm/>
+     <Contact/>
+     <Footer/>
     </>
   );
 }

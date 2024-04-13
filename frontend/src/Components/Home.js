@@ -1,5 +1,8 @@
 import React from 'react'
 import Wallpapers from './Wallpapers'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faComments } from '@fortawesome/free-solid-svg-icons'
+
 export default function Home() {
   return (
       <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="false" style={{backgroundColor:"black"}}>
@@ -16,6 +19,12 @@ export default function Home() {
         <h1 className='text-center' style={{paddingTop:"60px",fontSize: "70px" ,color: "white"}}><i>The Greatest Barter System Is Here For You.</i></h1>
         <h3 style={{color:"white",paddingBottom:"30vh"}}>Buy Your Favourite Item From Our Shop In Exchange Of Waste. Be a Responsible CItizen While Purchasing Goods From Our Platform.</h3>
         <button type="button" class="btn btn-success" style={{backgroundColor:"#024f4f"}}>Explore Now</button>
+       {/* <button type="button" style={{backgroundColor:"transparent", float: "right", fontSize: "50px"}}>           
+        <FontAwesomeIcon icon={faComments}  />
+  </button>*/}
+         <a href="https://mediafiles.botpress.cloud/52b4fd13-06f3-48a3-a092-45abbcca3976/webchat/bot.html" target ="_blank"  style={{backgroundColor:"transparent", float: "right", fontSize: "50px",color:"white"}}>
+         <FontAwesomeIcon icon={faComments}  />
+          </a>
       </div>
     </div>
    <Wallpapers imageUrl={"https://media.istockphoto.com/id/1349313772/photo/modern-style-kitchen-interior-design-with-dark-blue-wall.jpg?s=1024x1024&w=is&k=20&c=I0Zf4OYcQfuzKwwTiiniLgj0wTdTEFeNx_jRJ2PS6ag="} title={"From Fashion To Home Essentials And Many More"} desc={"One Destination For All Your Shopping Needs.Find Every Item Of Your Choice At A Single Destination With A New Twist"}/>    

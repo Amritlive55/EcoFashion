@@ -14,7 +14,7 @@ const otherPerson = [
     src: "https://www.shutterstock.com/image-photo/headshot-portrait-confident-young-indian-260nw-2021632466.jpg",
   },
   {
-    Name: "kirat",
+    Name: "Kirat",
     plastic: "480kg",
     index: 6,
     src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNaEKQxDDweE58CwtXoMF6e46kmgmVjPF4ng&usqp=CAU",
@@ -95,8 +95,8 @@ const LeaderboardPage = () => {
       </nav>
 
       {/* Leaderboard */}
-      <div style={{ marginTop: "20px", textAlign: "center" }}>
-        <h2>Leaderboard</h2>
+      <div style={{ marginTop: "30px", textAlign: "center" }}>
+        <h2 style={{marginBottom:"30px"}}>Leaderboard</h2>
         <div style={{ display: "flex", justifyContent: "center" }}>
           <div
             style={{

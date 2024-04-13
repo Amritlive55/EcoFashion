@@ -1,4 +1,6 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faComments } from '@fortawesome/free-solid-svg-icons'
 
 export default function Wallpapers({imageUrl,title,desc}) {
   return (
@@ -12,6 +14,9 @@ export default function Wallpapers({imageUrl,title,desc}) {
       </h1>
      <h3 style={{color:"white",paddingBottom:"30vh"}}>{desc}.</h3>
      <button type="button" class="btn btn-success" style={{backgroundColor:"#024f4f"}}>Explore Now</button>
+     <a href="https://mediafiles.botpress.cloud/52b4fd13-06f3-48a3-a092-45abbcca3976/webchat/bot.html" target ="_blank"  style={{backgroundColor:"transparent", float: "right", fontSize: "50px",color:"white"}}>
+         <FontAwesomeIcon icon={faComments}  />
+          </a>
     </div> 
     </div>
   )
