@@ -1,5 +1,5 @@
 import React from 'react'
-//import { Link } from "react-router-dom"
+import { Link } from "react-router-dom"
 import PropTypes from 'prop-types';
 
 export default function Navbar(props) {
@@ -12,28 +12,31 @@ export default function Navbar(props) {
     /*<nav className={`navbar navbar-expand-lg bg-success`}>*/
   <nav className={`navbar navbar-expand-lg`} style={{ backgroundColor: '#024f4f', boxShadow: 'none',backgrounColor:'transparent' }}>
     <div className="container-fluid d-flex justify-content-between" >
-      <a className="navbar-brand"  href="#" style={{color:"white"}}><big><big>{props.title}</big></big></a>
+    {/*<Link* class="navbar-brand" to="#">
+      <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24"/>
+  </Link*/}
+      <Link className="navbar-brand"  to="#" style={{color:"white"}}><big><big>{props.title}</big></big></Link>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
           <li className="nav-item">
-            <a className="nav-link" aria-current="page" href="#">Home</a>
+            <Link className="nav-link" aria-current="page" to="/Main">Home</Link>
           </li>
 
           <li className="nav-item">
-            <a  className="nav-link " href="src\Components\Knowledge.js">Shop</a>
+            <Link  className="nav-link " to="/">Shop</Link>
           </li>
           
           <li className="nav-item">
-            <a  className="nav-link active" href="#"> Leaderboard</a>
+            <Link  className="nav-link active" to="/Leaderboard"> Leaderboard</Link>
           </li>
           <li className="nav-item">
-            <a  className="nav-link" href="#"> Contact </a>
+            <Link  className="nav-link" to="/Contact"> Contact </Link>
           </li>
           <li className="nav-item">
-            <a  className="nav-link " href="#"> Register/Sign-in</a>
+            <Link  className="nav-link " to="/RegistrationForm"> Log-in/Sign-up</Link>
           </li>
         </ul>
         </div>

@@ -3,7 +3,7 @@ import Card2 from './Card2.js'
 export default function BestSelling() {
   return (
     <>
-        <h1 className='text-center' style={{ paddingTop:"10px",fontSize: "75px", marginBottom: "30px", color: "#024f4f" }}>
+        <h1 className='text-center' style={{ paddingTop:"20px",fontSize: "75px", paddingBottom: "4px", color: "#024f4f" }}>
     Best Selling
       </h1>
       <p className='text-center' style={{color:"white"}}>Get it on the trend with our curated selection of best-selling styles.</p>

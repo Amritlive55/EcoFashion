@@ -56,13 +56,13 @@ function RegistrationForm() {
           />
         </div>
         <div>
-          <textarea
+         {/*<textarea
             id="concern"
             value={concern}
             placeholder="Concern"
             onChange={(e) => setConcern(e.target.value)}
             required
-          />
+  />*/}
         </div>
         <button type="submit">Register</button>
       </form>
