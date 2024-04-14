@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+EcoFashion - Revolutionizing Retail with Recycling
+Product Description
+Welcome to Ecofashion, the leading online platform that combines the convenience of shopping with a commitment to environmental  sustainability. At Ecofashion, we believe in creating a greener future by encouraging responsible disposal of electronic waste (e-waste) and rewarding our customers for their contributions.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Our website offers a wide array of high-quality products, ranging from electronics and appliances to fashion and home decor. We partner with renowned brands and suppliers who share our vision of sustainability, ensuring that you have access to the latest and most eco-friendly options.
 
-## Available Scripts
+What sets Ecofashion apart is our unique e-waste contribution program. We understand that e-waste is a growing concern globally, with harmful consequences for the environment if not handled properly. To address this issue, we've implemented a simple and effective solution: we encourage our customers to donate their e-waste when making a purchase.
 
-In the project directory, you can run:
+When you shop with us, you have the option to add your old electronics, such as smartphones, laptops, or tablets, to your cart and send them back to us for responsible recycling. To incentivize this valuable contribution, we offer discounts on various products based on the amount and type of e-waste you donate.
 
-### `npm start`
+Here's how it works: Each item of e-waste you contribute is assigned a specific value, which is determined by its condition, age, and recyclability. This value is then converted into discount points, which can be redeemed during your shopping experience. The more e-waste you contribute, the higher the discount you receive on your purchases.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Once you've added your desired products and selected the e-waste items you wish to donate, simply complete your order, and we'll take care of the rest. A pre-paid shipping label will be provided, making it easy for you to send your e-waste back to us. Our expert recycling partners will handle the proper disposal, ensuring that valuable materials are recovered and harmful substances are disposed of safely.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+At Ecofashion, we're committed to transparency and accountability. We provide regular updates on the impact of our e-waste contribution program, showcasing the amount of waste diverted from landfills and the positive environmental outcomes achieved through our customers' participation.
 
-### `npm test`
+Join us in making a difference and enjoy the satisfaction of knowing that your e-waste is being handled responsibly. Shop at Ecofashion today, and let's build a sustainable future together.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+TechStack Used-
+Frontend:Html/css, JavaScript,Reactjs,React-router,bootstrap
+Backend:python,django,django rest framework,sqlite,socket.io(we are in the development phase)
