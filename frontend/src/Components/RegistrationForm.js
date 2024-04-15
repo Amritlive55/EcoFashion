@@ -23,7 +23,7 @@ function RegistrationForm() {
     <div className="registration-form-container">
       {" "}
       {/* Container div with CSS class */}
-      <h2>Register</h2>
+      <h2 style={{color:"black"}}>Register</h2>
       <form onSubmit={handleSubmit}>
         <div>
           <input

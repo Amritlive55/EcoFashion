@@ -9,6 +9,7 @@ import RegistrationForm from './Components/RegistrationForm.js';
 import Contact from './Components/Contact.js';
 import Footer from './Components/Footer.js';
 import Main from './Components/Main.js';
+import Shop from './Components/Shop.js';
 import {
   BrowserRouter as Router,
   Routes,
@@ -69,14 +70,16 @@ function App() {
 
 <Router>
 <Navbar title= "   ECO Fashion"   Mode='dark' toggleMode={toggleMode}/>
-    <Routes>
+   <Routes>
     <Route exact path="/" element= {<Main/>}/>
+     <Route exact path="/Shop" element= {<Shop/>}/>
     <Route exact path="/Leaderboard" element= {<LeaderboardPage/>}/>
     <Route exact path="/Contact" element= {<Contact/>}/>
     <Route exact path="/RegistrationForm" element= {<RegistrationForm/>}/>
-    </Routes>
+  </Routes>
   </Router>
-   <Footer/>
+  <Footer/>
+  
     </>
   );
 }
