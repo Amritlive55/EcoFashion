@@ -7,6 +7,7 @@ function RegistrationForm() {
   const [phoneNo, setPhoneNo] = useState("");
   const [region, setRegion] = useState("");
   const [concern, setConcern] = useState("");
+  const [email, setEmail] = useState("");
 
   // Function to handle form submission
   const handleSubmit = (event) => {
@@ -32,6 +33,16 @@ function RegistrationForm() {
             value={username}
             placeholder="Username"
             onChange={(e) => setUsername(e.target.value)}
+            required
+          />
+        </div>
+        <div>
+          <input
+            type="email" // Use type="email" for email input
+            id="email"
+            placeholder="Email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
             required
           />
         </div>

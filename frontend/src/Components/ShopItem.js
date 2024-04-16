@@ -16,7 +16,7 @@ const ShopItem =(props)=>{
     <FontAwesomeIcon icon={faStar} style={{color: "#FFD43B",}} />
     </h5>
     {/*<p className="card-text"> {description}... </p>*/}
-    <a href="#"target ="_blank"  className = "btn btn-sm btn-success text-center" style={{backgroundColor:"#024f4f"}}>Shop Now</a>
+    <a href="#"target ="_blank"  className = "btn btn-sm btn-success text-center" style={{backgroundColor:"#024f4f",transition: "background-color 0.3s ease",textAlign: "center"}}>Shop Now</a>
   </div>
 </div>
       </div>

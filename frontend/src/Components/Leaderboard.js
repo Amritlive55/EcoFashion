@@ -1,5 +1,3 @@
-import React from "react";
-
 const otherPerson = [
   {
     Name: "Sam",
@@ -266,6 +264,7 @@ const LeaderboardPage = () => {
     </div>
     </div>
   );
-};
+}; 
 
-export default LeaderboardPage;
+export default LeaderboardPage;   
+

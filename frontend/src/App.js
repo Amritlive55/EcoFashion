@@ -4,7 +4,6 @@ import Navbar from './Components/Navbar.js';
 import React from 'react';
 import { useState } from 'react';
 import LeaderboardPage from './Components/Leaderboard.js';
-import SaveEarthComponent from './Components/SaveEarth.js';
 import RegistrationForm from './Components/RegistrationForm.js';
 import Contact from './Components/Contact.js';
 import Footer from './Components/Footer.js';
@@ -15,6 +14,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import SaveEarthComponent from './Components/SaveEarth.js';
 
 //Home Shop LeaderBoard Contact Login
 
@@ -76,9 +76,11 @@ function App() {
     <Route exact path="/Leaderboard" element= {<LeaderboardPage/>}/>
     <Route exact path="/Contact" element= {<Contact/>}/>
     <Route exact path="/RegistrationForm" element= {<RegistrationForm/>}/>
+    <Route exact path="/SaveEarth" element= {<SaveEarthComponent/>}/>
   </Routes>
   </Router>
   <Footer/>
+ 
   
     </>
   );
