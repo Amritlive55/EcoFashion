@@ -14,7 +14,7 @@ export default function Home() {
   {/*<Wallpapers imageUrl={""} title={""} desc={""}/>*/}
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="https://media.istockphoto.com/id/1352362769/photo/male-and-female-recycling-coworkers-holding-digital-tablet-and-plastic-box-full-of-mother.jpg?s=1024x1024&w=is&k=20&c=ydRpdvABGMplZMg0IJ9VROfbYcB7vXFzoWJbamy9JDI=" className="d-block w-100" alt="..." style={{height:'110vh',opacity:"0.5"}}/>
+      <img src="https://images.unsplash.com/photo-1582408921715-18e7806365c1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fFdBU1RFJTIwTUFOQUdFTUVOVHxlbnwwfHwwfHx8MA%3D%3D" className="d-block w-100" alt="..." style={{height:'110vh',opacity:"0.4"}}/>
       <div className="carousel-caption d-none d-md-block">
         <h1 className='text-center' style={{paddingTop:"60px",fontSize: "70px" ,color: "white"}}><i>The Greatest Barter System Is Here For You.</i></h1>
         <h3 style={{color:"white",paddingBottom:"30vh"}}>Buy Your Favourite Item From Our Shop In Exchange Of Waste. Be a Responsible CItizen While Purchasing Goods From Our Platform.</h3>

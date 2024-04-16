@@ -1,0 +1,104 @@
+.premium-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ddf0f0;
+    margin-top: 180px;
+    height: 700px;
+  }
+  
+  .arrow-container {
+    float: left;
+  }
+  
+  .arrow-button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .arrow-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .premium-content {
+    margin-left: 60px;
+  }
+  
+  .go-premium {
+    color: #6a5acd; /* Medium Slate Blue */
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+  }
+  
+  h1 {
+    color: #024f4f;
+    margin-top: 0;
+  }
+  
+  ul {
+    margin-left: 20px;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    color: #024f4f;
+  }
+  
+  .image-container {
+    float: right;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+  }
+  
+  .boxes-container {
+    display: flex;
+  }
+  
+  .box {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    background-color: #024f4f;
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+  
+  .try-premium {
+    color: #555;
+    font-style: italic;
+    margin-top: 20px;
+  }
+  
+  .select-button {
+    background-color: #024f4f; /* Royal Blue */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .select-button:hover {
+    background-color: #355fb7; /* Darker shade of Royal Blue */
+  }
+  
+  h2 {
+    color: #333;
+    margin-top: 40px;
+  }

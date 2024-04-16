@@ -57,7 +57,7 @@ export default function Navbar(props) {
             <Link  className="nav-link" style={{color:"white"}}  to="/SaveEarth"><button type="button" class="btn btn-warning">Join Us</button> </Link>
           </li>
           <li className="nav-item">
-            <Link  className="nav-link" style={{color:"white"}}  to="/"><button type="button" class="btn btn-warning">Try Premium</button> </Link>
+            <Link  className="nav-link" style={{color:"white"}}  to="/Premium"><button type="button" class="btn btn-warning">Try Premium</button> </Link>
           </li>
         </ul>
         <div className={`form-check form-switch text-${props.Mode==='light'?'dark':'light'}`}>

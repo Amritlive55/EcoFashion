@@ -70,7 +70,7 @@ const SaveEarthComponent = () => {
             <p style={{color:"black"}}> In A Year</p>
             </div>
           </div>
-          <button type="button" class="btn btn-lg" style={{backgroundColor:"#024f4f",marginTop:"30px"}}>JOIN NOW</button>
+          <button type="button" class="btn btn-lg" style={{backgroundColor:"#024f4f",marginTop:"30px",color:"white"}}>JOIN NOW</button>
 
           {/* Bluish green color */}
         </div>

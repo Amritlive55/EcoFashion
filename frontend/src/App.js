@@ -15,6 +15,7 @@ import {
   Route
 } from "react-router-dom";
 import SaveEarthComponent from './Components/SaveEarth.js';
+import PremiumComponent from './Components/Premium.js';
 
 //Home Shop LeaderBoard Contact Login
 
@@ -77,6 +78,8 @@ function App() {
     <Route exact path="/Contact" element= {<Contact/>}/>
     <Route exact path="/RegistrationForm" element= {<RegistrationForm/>}/>
     <Route exact path="/SaveEarth" element= {<SaveEarthComponent/>}/>
+   <Route exact path="/Premium" element= {<PremiumComponent/>}/>
+
   </Routes>
   </Router>
   <Footer/>
