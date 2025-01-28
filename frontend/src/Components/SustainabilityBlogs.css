@@ -1,0 +1,64 @@
+.sustainability-blogs {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sustainability-blogs h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+  }
+  
+  .blogs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .blog-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    width: 300px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .blog-card h3 {
+    font-size: 1.25rem;
+    color: #1abc9c;
+    margin-bottom: 1rem;
+  }
+  
+  .blog-card p {
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+  
+  .blog-card .read-more {
+    display: inline-block;
+    font-size: 0.9rem;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #3498db;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .blog-card .read-more:hover {
+    background-color: #3498db;
+    color: #ffffff;
+  }

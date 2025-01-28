@@ -1,0 +1,79 @@
+.navbar {
+    font-family: "Poppins", sans-serif;
+    padding: 0.3rem 1rem; /* Reduced vertical padding */
+    margin: 0; /* Removed default margins */
+    background: linear-gradient(90deg, #024f4f, #056060);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensures navbar stays on top */
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Adjusted for a compact layout */
+}
+
+.nav-link {
+    font-size: 0.9rem; /* Slightly smaller font for compactness */
+    color: white;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #f2c94c;
+    transform: translateY(-2px); /* Subtle hover effect */
+}
+
+.hover-effect {
+    position: relative;
+}
+
+.hover-effect::after {
+    content: "";
+    position: absolute;
+    bottom: -2px; /* Adjusted for a thinner navbar */
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #f2c94c;
+    transition: width 0.3s ease-in-out;
+}
+
+.hover-effect:hover::after {
+    width: 100%;
+}
+
+.btn-custom {
+    background-color: #f2c94c;
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 0.3rem 0.6rem; /* Reduced padding for thinner buttons */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 4px;
+}
+
+.btn-custom:hover {
+    background-color: #e0b933;
+    transform: scale(1.05);
+}
+
+.navbar-brand {
+    font-size: 1.4rem; /* Slightly smaller for compactness */
+    font-weight: bold;
+}
+
+.form-switch .form-check-input {
+    background-color: #f2c94c;
+    border: none;
+    cursor: pointer;
+    width: 1.5rem;
+    height: 1rem; /* Adjusted size for proportion */
+}
+
+.form-switch .form-check-input:checked {
+    background-color: #56ccf2;
+}

@@ -1,0 +1,35 @@
+.eco-impact-tracker {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 400px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .eco-impact-tracker input {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .eco-impact-tracker button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .eco-impact-tracker button:hover {
+    background-color: #45a049;
+  }
+  
+  .impact-details {
+    margin-top: 20px;
+    text-align: left;
+  }
