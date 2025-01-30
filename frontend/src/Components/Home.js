@@ -1,9 +1,26 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Wallpapers from "./Wallpapers";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faComments } from "@fortawesome/free-solid-svg-icons";
+import { faComments, faPhone } from "@fortawesome/free-solid-svg-icons";
+
 
 export default function Home() {
+
+  const contactUsStyle = {
+    position: 'fixed',
+    bottom: '20px',  // Position from the bottom
+    right: '20px',   // Position from the right
+    zIndex: 1000,    // Makes sure the icon stays on top
+  };
+
+  const iconStyle = {
+    width: '50px',  // Size of the icon
+    height: 'auto',
+    cursor: 'pointer',  // Make it clickable
+  };
+
+
   return (
     <div
       id="carouselExampleCaptions"
@@ -60,6 +77,7 @@ export default function Home() {
               Explore Now
             </button>
             <a
+               
               href="https://mediafiles.botpress.cloud/52b4fd13-06f3-48a3-a092-45abbcca3976/webchat/bot.html"
               target="_blank"
               rel="noopener noreferrer"
@@ -68,9 +86,19 @@ export default function Home() {
                 float: "right",
                 fontSize: "50px",
                 color: "white",
+                
               }}
-            >
+            > 
               <FontAwesomeIcon icon={faComments} />
+
+      {/* Contact Us icon */}
+      <div >
+        <Link  style={contactUsStyle} to ="/contact">
+        <FontAwesomeIcon icon={faPhone} style={{ marginRight: "8px" }} />
+         
+        </Link>
+      </div>
+
             </a>
           </div>
         </div>

@@ -1,61 +1,69 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    /* Nice blue background color */
-  }
-  
-  .contact-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    
-  }
-  
-  .contact-box {
-    background-color: #ffffff; /* White background */
-    color: #333; /* Dark gray text color */
-    padding: 40px; /* Increase padding for more space inside the box */
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Increase shadow for larger effect */
-    text-align: center;
-    width: 70%; /* Set the width of the box */
-    height: 400px; /* Set the height of the box */
-    max-width: 600px; /* Set a maximum width for responsiveness */
-    margin: auto; /* Center the box horizontally */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .contact-box h2 {
-    margin-top: 0;
-  }
-  
-  .contact-details {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .contact-detail {
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-  }
-  
-  .contact-detail a {
-    text-decoration: none;
-    color: inherit;
-    display: flex;
-    align-items: center;
-  }
-  
-  .contact-detail i {
-    margin-right: 10px;
-    font-size: 20px; /* Increase icon size */
-  }
+.contact-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #f5fff5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #024f4f;
+  font-size: 28px;
+}
+
+p {
+  color: #555;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.contact-form {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #024f4f;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #024f4f;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contact-form button:hover {
+  background-color: #024f4f;
+}
+
+.contact-info {
+  width: 45%;
+  text-align: left;
+}
+
+.contact-info h3 {
+  color: #024f4f;
+}
+
+.map-container {
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}

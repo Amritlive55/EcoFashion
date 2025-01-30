@@ -7,6 +7,8 @@ import {
   faEarthAmericas,
   faBook,
   faShoePrints,
+  faPhone,
+  faSun, faMoon 
 } from "@fortawesome/free-solid-svg-icons";
 import "./Navbar.css";
 
@@ -18,6 +20,7 @@ export default function Navbar({ title, toggleMode, mode }) {
         background: "linear-gradient(90deg, #024f4f, #056060)",
         boxShadow: "0 4px 12px rgba(0, 0, 0, 0.2)",
         color: "white",
+        padding: "2px 0"
       }}
     >
       <div className="container-fluid">
@@ -65,27 +68,27 @@ export default function Navbar({ title, toggleMode, mode }) {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <Link className="dropdown-item" to="/shop/electronics">
+                  <Link className="dropdown-item" to="/shop">
                     Electronics
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/shop/women">
+                  <Link className="dropdown-item" to="/shop">
                     Women's Fashion
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/shop/men">
+                  <Link className="dropdown-item" to="/shop">
                     Men's Fashion
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/shop/home-kitchen">
+                  <Link className="dropdown-item" to="/shop">
                     Home & Kitchen
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/shop/sports">
+                  <Link className="dropdown-item" to="/shop">
                     Sports & Fitness
                   </Link>
                 </li>
@@ -96,12 +99,20 @@ export default function Navbar({ title, toggleMode, mode }) {
                 Leaderboard
               </Link>
             </li>
+           
             <li className="nav-item">
+   <Link className="nav-link hover-effect" to="/contact">
+    <FontAwesomeIcon icon={faPhone} style={{ marginRight: "8px" }} /> 
+  </Link>
+</li>
+
+            {/*<li className="nav-item">
               <Link className="nav-link hover-effect" to="/contact">
                 Contact
               </Link>
-            </li>
-            <li className="nav-item">
+            </li>*/}
+
+            {/*<li className="nav-item">
               <Link className="nav-link hover-effect" to="/registration">
                 Sign-up
               </Link>
@@ -111,8 +122,9 @@ export default function Navbar({ title, toggleMode, mode }) {
                 Login
               </Link>
             </li>
+            */}
             <li className="nav-item">
-              <Link className="nav-link" to="/save-earth">
+              <Link className="nav-link" to="/saveEarth">
                 <button type="button" className="btn btn-custom">
                   Join Us
                 </button>
@@ -152,21 +164,35 @@ export default function Navbar({ title, toggleMode, mode }) {
               </Link>
             </li>
           </ul>
+
           <div className="form-check form-switch">
-            <input
+            
+            {/*<input
               className="form-check-input"
               onClick={toggleMode}
               type="checkbox"
               role="switch"
               id="flexSwitchCheckDefault"
             />
-            <label
+
+
+            {/*<label
               className="form-check-label"
               htmlFor="flexSwitchCheckDefault"
               style={{ color: "white" }}
             >
               {mode === "dark" ? "Light Mode" : "Dark Mode"}
+               {darkMode ? "🌞" : "🌜"}
             </label>
+*/}
+        <button 
+          className="mb-4 flex items-center justify-center h-10 w-10 bg-transparent rounded-lg hover:opacity-80 text-xl"
+          onClick={toggleMode}
+        >
+        {mode === "dark" ? <FontAwesomeIcon icon={faSun} />  :  <FontAwesomeIcon icon={faMoon} />}
+       
+        </button>
+
           </div>
         </div>
       </div>
